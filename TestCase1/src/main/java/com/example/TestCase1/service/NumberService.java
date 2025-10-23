@@ -72,7 +72,6 @@ public class NumberService {
         } else {
             kalimat = "Angka terlalu besar";
         }
-
         return kalimat.trim().replaceAll("\\s+", " ");
     }
 }
